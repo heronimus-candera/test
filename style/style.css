@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+}
+
+.putih {
+    padding: 5% 20%
+}
+
+.biru {
+    background-color: aqua;
+    padding: 5% 20%
+}
+
+#profile {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+#profile div {
+    margin-left: 10px;
+}
+
+#pendidikan {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+#kemampuan {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+#kemampuan li {
+    list-style: disc;
+}
+
+#kontak {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 20%;
+}
+
+#kontak a {
+    margin: 4px 4px;
+    text-decoration: none;
+}
